@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#checkbox{
+       -webkit-text-fill-color: rgb(78, 201, 201);
+}
+ #myVideo {
+    border-radius: 30px;
+     border: 5px solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    width: 800px;
+    z-index: -1;
+
+  }   
+
+  .login{
+          position: fixed;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+           width: 50%;
+          
+      }
+      
+      input[type=text], input[type=password] {
+        border-radius: 30px;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 5px solid #adaca1f6;
+        box-sizing: border-box;
+        background-color: transparent;
+        -webkit-text-fill-color: aqua;
+        font-size: large;
+      }
+      input[type=text]{
+        text-transform: capitalize;
+      }
+      /* Set a style for all buttons */
+      button {
+        background-color: #ac7697;
+        color: rgb(15, 12, 12);
+        padding: 14px 20px;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 40%;
+      }
+      
+      /* Add a hover effect for buttons */
+      button:hover {
+        opacity: 0.8;
+      }
+      
+      /* Extra style for the cancel button (red) */
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background-color: #88807f;
+      }
+      
+      /* Center the avatar image inside this container */
+      .imgcontainer {
+        text-align: center;
+        margin: 24px 0 12px 0;
+      }
+      
+    
+      /* Add padding to containers */
+      .container {
+        border-radius: 30px;
+        padding: 16px;
+      }
+      
+      /* The "Forgot password" text */
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+      
+      /* Change styles for span and cancel button on extra small screens */
+      /* @media screen and (max-width: 300px)  */
+        .psw {
+          display: block;
+          float: none;
+          -webkit-text-fill-color: #b11825;
+          text-decoration:none;
+          text-transform: uppercase;
+          text-decoration: solid;
+        }
+    
+        .cancelbtn {
+          width: 100px;
+          border-radius: 30px;
+        }
+        h1{
+          text-align: center;
+          text-shadow: #88807f;
+          
+          
+        }
+        body, html{
+          height: 100%;
+          margin: 0;
+        }
+        
+        .bg {
+          /* The image used */
+          background-image: url("https://images.pexels.com/photos/194096/pexels-photo-194096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        
+          /* Full height */
+          height: 100%; 
+        
+          /* Center and scale the image nicely */
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+        }
+     
+
+      
+
+/* Style the video: 100% width and height to cover the entire window */ 
